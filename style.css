@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,400,500");
+html { height: 100%;}
+body { height: 100%; margin: 0px; font-size: 14px; background-color: black;}
+body, input, textarea { font-family: "Roboto"; color: black; font-weight: 300;}
+h1, h2, h3, h4, h5, h6 { margin: 0px; font-weight: 300;}
+#intro {position: fixed; left: 0; bottom: 0; min-width: 100%; min-height: 100%;}
+.texte{ background-position: top center; position: fixed; text-align: center; margin-top: 15vh; width: 100vw; height: 100vh;}
+
+@media screen and (max-width: 679px){
+/* propriétés pour mobile */
+#intro{left: -50%}
+}
+@media screen (min-width: 680px) and (max-width: 1920px){
+/* propriétés pour tablette et pc*/
+}
